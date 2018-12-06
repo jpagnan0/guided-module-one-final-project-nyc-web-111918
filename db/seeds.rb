@@ -10,7 +10,7 @@ end
     name: "#{Faker::Address.community}",
     location: "#{Faker::Address.full_address}",
     zip_code: "#{Faker::Address.zip}".split("-").first,
-    year_built: "#{Faker::Date.birthday(3,90)}"
+    date_built: "#{Faker::Date.birthday(3,90)}"
   )
 end
 

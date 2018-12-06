@@ -4,7 +4,7 @@ class TrainStations < ActiveRecord::Migration[5.0]
       t.string :name
       t.string :location
       t.string :zip_code
-      t.string :year_built
+      t.string :date_built
       t.timestamps
     end
   end

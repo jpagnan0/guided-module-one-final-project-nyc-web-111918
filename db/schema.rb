@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 2018_12_04_151630) do
     t.string "name"
     t.string "location"
     t.string "zip_code"
-    t.string "year_built"
+    t.string "date_built"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
