@@ -3,6 +3,7 @@ class TrainLines < ActiveRecord::Migration[5.0]
     create_table :train_lines do |t|
       t.string :name
       t.string :color
+      t.timestamps
     end
   end
 end
